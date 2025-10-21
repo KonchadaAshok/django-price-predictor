@@ -123,6 +123,15 @@ Make sure you added this in settings.py:
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
 
+ Then convert CSV → Excel
+
+Now that your CSV has data, run this again:
+
+
+Run it in your VS Code terminal:
+
+python convert_to_excel.py
+
 
 Logo not showing?
 Check that the file path matches exactly with what you reference in your template.
